@@ -1,10 +1,6 @@
 # DO NOT REMOVE. CLOUDLINUX PASSENGER CONFIGURATION BEGIN
 PassengerAppRoot "/home/e11l3s2q87js/public_html/adr"
 PassengerBaseURI "/"
-PassengerPython "/home/e11l3s2q87js/virtualenv/public_html/adr/3.9/bin/python"
-PassengerAppLogFile "/home/e11l3s2q87js/logs/emres.log"
+PassengerPython "/home/e11l3s2q87js/virtualenv/public_html/adr/3.11/bin/python"
+PassengerAppLogFile "/home/e11l3s2q87js/logs/emrem.log"
 # DO NOT REMOVE. CLOUDLINUX PASSENGER CONFIGURATION END
-# DO NOT REMOVE OR MODIFY. CLOUDLINUX ENV VARS CONFIGURATION BEGIN
-<IfModule Litespeed>
-</IfModule>
-# DO NOT REMOVE OR MODIFY. CLOUDLINUX ENV VARS CONFIGURATION END

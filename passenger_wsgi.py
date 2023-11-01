@@ -1,5 +1,5 @@
-import os
-import sys
+# import os
+# import sys
 
 
 # sys.path.insert(0, os.path.dirname(__file__))
@@ -11,5 +11,6 @@ import sys
 #     version = 'Python %s\n' % sys.version.split()[0]
 #     response = '\n'.join([message, version])
 #     return [response.encode()]
+
 
 from main.wsgi import application
