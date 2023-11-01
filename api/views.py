@@ -56,8 +56,8 @@ class PlanViewSet(viewsets.ModelViewSet):
 class UserViewSet(viewsets.ModelViewSet):
     queryset = CustomUser.objects.all()
     serializer_class = UserSerializer
-    permission_classes = [IsAuthenticated]
-    authentication_classes= (TokenAuthentication,)
+    # permission_classes = [IsAuthenticated]
+    # authentication_classes= (TokenAuthentication,)
     filter_backends = [DjangoFilterBackend]
     filterset_fields = ['username', ]
 
