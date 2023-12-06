@@ -81,7 +81,6 @@ class Question(models.Model):
     answerC =  models.CharField(max_length=500,null=True,blank=True)
     # answers =  models.ForeignKey(Answers,on_delete=models.CASCADE, null=True,blank=True)
     planAnswer =  models.CharField(max_length=500,null=True,blank=True)
-    currect =  models.CharField(max_length=500,null=True,blank=True)
     currectAnswer =  models.CharField(max_length=500,null=True,blank=True)
     unCurrectAnswer =  models.CharField(max_length=500,null=True,blank=True)
     allYear = models.BooleanField(null=True, blank=True)
