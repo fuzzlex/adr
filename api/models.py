@@ -83,6 +83,7 @@ class Question(models.Model):
     planAnswer =  models.CharField(max_length=500,null=True,blank=True)
     currectAnswer =  models.CharField(max_length=500,null=True,blank=True)
     unCurrectAnswer =  models.CharField(max_length=500,null=True,blank=True)
+    otherCurrectAnswer =  models.CharField(max_length=500,null=True,blank=True)
     allYear = models.BooleanField(null=True, blank=True)
     subCategory =  models.CharField(max_length=500,null=True,blank=True)
     spesificMonth = models.ManyToManyField(Month, related_name="month", blank=True)  
