@@ -71,6 +71,9 @@ MIDDLEWARE = [
 ]
 
 ROOT_URLCONF = 'main.urls'
+CSRF_TRUSTED_ORIGINS = [
+    'https://adr.kayaemre.store',
+]
 
 TEMPLATES = [
     {
